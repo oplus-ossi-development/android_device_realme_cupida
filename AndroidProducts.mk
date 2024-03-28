@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cupida.mk
+    $(LOCAL_DIR)/evolution_cupida.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_cupida-user \
-    lineage_cupida-userdebug \
-    lineage_cupida-eng
+    evolution_cupida-user \
+    evolution_cupida-userdebug \
+    evolution_cupida-eng
