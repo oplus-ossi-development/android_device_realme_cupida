@@ -24,6 +24,15 @@ $(call inherit-product, device/oplus/cupida/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+#Rising things
+RISING_MAINTAINER="Zatvio"
+RISING_CHIPSET="MTK Dimensity 1200"
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := true
+WITH_GMS := true
+TARGET_CORE_GMS := true
+
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_cupida
 PRODUCT_DEVICE := cupida
