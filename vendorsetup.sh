@@ -11,7 +11,7 @@ rm -rf hardware/mediatek && git clone https://github.com/oplus-ossi-development/
 # oneplus parts
 git clone https://github.com/oplus-ossi-development/android_packages_apps_OneplusParts packages/apps/OneplusParts
 # kernel dt
-git clone --depth=1 --recurse-submodules https://github.com/oplus-ossi-development/android_kernel_oplus_mt6893 kernel/oplus/mt6893
+git clone https://github.com/oplus-ossi-development/android_kernel_oplus_mt6893 kernel/oplus/mt6893
 # hardware mediatek wlan
 git clone https://github.com/oplus-ossi-development/android_hardware_mediatek_wlan hardware/mediatek/wlan
 # vendor oplus cupida
